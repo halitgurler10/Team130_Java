@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 
 public class C01_CheckedException {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
         String dosyaYolu = "src/day40_CheckedExceptions/yazi.txt";
 
@@ -38,6 +38,31 @@ public class C01_CheckedException {
         ve bizden cozum ister
 
          */
+
+         /*
+            Checked Exception'lar icin
+            Java bize 2 alternatif sunar
+            1- su ana kadar yaptigimiz gibi
+               try-catch ile sarmalayip
+               sorun olussa bile calismaya devam etmesini saglayabiliriz
+
+            2- EGER exception'i kontrol altina alip
+               calismaya devam etmesini istemiyorsaniz
+               SADECE kirmizi cizgiyi yoketmek
+               kodlarimizi calisir hale getirmek
+               ve exception olusursa, kodlarimizin calismayi durdurmasini istersek
+               method deklarasyonuna riskin farkinda oldugumuzu beyan eden
+               throws keyword yazmamiz yeterlidir
+
+               throws FileNotFoundException :
+               method deklarasyonuna ekledigimiz bu bolum
+               riskin farkinda oldugumuzu soyler
+               AMMA exception'i kontrol altina almaz
+
+         */
+        FileInputStream fileInputStream = new FileInputStream(dosyaYolu);
+
+
 
 
 
