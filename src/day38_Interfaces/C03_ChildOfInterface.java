@@ -1,8 +1,7 @@
 package day38_Interfaces;
 
-public class C03_ChildOfInterface {
 
-    public class C03_ChildOfInterface implements  I04_ChildInterface2{
+    public class C03_ChildOfInterface implements  I04_ChildInterface2 {
 
         // 1,2,3,4,5,7,8
 
@@ -42,7 +41,7 @@ public class C03_ChildOfInterface {
         }
 
 
-
+    }
 
 
     }

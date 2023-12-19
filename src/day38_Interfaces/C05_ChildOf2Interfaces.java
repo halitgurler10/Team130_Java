@@ -52,6 +52,6 @@ public class C05_ChildOf2Interfaces implements I04_ChildInterface2,I05_ChildInte
         System.out.println(I05_ChildInterface3.S);
         System.out.println(ILK_HARF);
 
-
+    }
 
 }

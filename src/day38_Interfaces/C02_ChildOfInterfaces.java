@@ -1,47 +1,22 @@
 package day38_Interfaces;
 
+public class C02_ChildOfInterfaces implements   I02_ParentInterface{
 
+    // m1,m2,m3
 
-    public class C03_ChildOfInterface implements  I04_ChildInterface2{
+    @Override
+    public void method1() {
 
-        // 1,2,3,4,5,7,8
+    }
 
-        @Override
-        public void method1() {
+    @Override
+    public void method2() {
 
-        }
+    }
 
-        @Override
-        public void method2() {
+    @Override
+    public String method3() {
+        return null;
+    }
 
-        }
-
-        @Override
-        public String method3() {
-            return null;
-        }
-
-        @Override
-        public void method4() {
-
-        }
-
-        @Override
-        public String method5() {
-            return null;
-        }
-
-        @Override
-        public int method7() {
-            return 0;
-        }
-
-        @Override
-        public char method8() {
-            return 0;
-        }
-
-
-
-
-
+}
