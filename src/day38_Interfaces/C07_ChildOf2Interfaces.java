@@ -1,6 +1,6 @@
 package day38_Interfaces;
 
-public class C07_ChildOf2Interfaces implements I04_ChildInterface2{
+public class C07_ChildOf2Interfaces implements I04_ChildInterface2 {
 
 
     @Override
@@ -29,7 +29,6 @@ public class C07_ChildOf2Interfaces implements I04_ChildInterface2{
     }
 
 
-
     @Override
     public int method7() {
         return 0;
@@ -39,4 +38,6 @@ public class C07_ChildOf2Interfaces implements I04_ChildInterface2{
     public char method8() {
         return 0;
 
+    }
 }
+

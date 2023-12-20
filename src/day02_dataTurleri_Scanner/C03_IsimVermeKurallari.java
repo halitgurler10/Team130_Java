@@ -9,7 +9,7 @@ public class C03_IsimVermeKurallari {
         int Not = 45;
         int noT = 65;
 
-        // veriable isimleri buyuk kucuk harf duyarlidir  sensitiv
+        // veriable isimleri buyuk kucuk harf duyarlidir   case sensitiv
 
         System.out.println(NOT); // 23
         System.out.println(not); //54
