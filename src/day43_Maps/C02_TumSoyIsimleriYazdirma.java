@@ -25,13 +25,13 @@ public class C02_TumSoyIsimleriYazdirma {
         // Önce 106 numarali ögrencinin value'sine ulasip kaydedelim
 
         //String value106 = ogrenciMap.get(106);  //  Sevgi-Can-10-K-MF
-        //String [] value106Arr = value106.split("-");
+        //String [] value106Arr = value106.split("-"); [Sevgi, Can, 10, K, MF]
        // System.out.println("106 soyisim : " + value106Arr[1]);  // 106 soyisim : Can
 
 
 
         // Tüm ogrencilerin soyisimlerini yazdirin
-        Set<Integer> ogrenciKeySeti = ogrenciMap.keySet();  // [101, 102, 103, 104, 105, 106, 107, 108, 109, 110]
+        Set<Integer> ogrenciKeySeti = ogrenciMap.keySet();  //
 
         for (Integer eachKey: ogrenciKeySeti
              ) {
