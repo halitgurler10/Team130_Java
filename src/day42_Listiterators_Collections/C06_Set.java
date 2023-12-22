@@ -29,6 +29,7 @@ public class C06_Set {
 
         System.out.println(uniqueSet); // [2, 3, 4, 5, 6, 7]
 
+
         // Bizim unique sayilarla elde ettigimiz set
         // simdi bu set'teki elementleri, kendi arr'mize atamaliyiz
 
