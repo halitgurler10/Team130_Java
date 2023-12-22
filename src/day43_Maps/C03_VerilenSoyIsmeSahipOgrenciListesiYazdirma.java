@@ -43,13 +43,16 @@ public class C03_VerilenSoyIsmeSahipOgrenciListesiYazdirma {
             String [] valueEachArr = valueEach.split("-"); // [Esra, Han, 11, M, SOZ]
 
 
-
             // 5- istenen bilgiyi yazdiralim
             // istenen soyisme sahip ogrencilerin , numara, isim ve bolumlerini yazdirin
 
             if (valueEachArr[1].equalsIgnoreCase(istenenSoyIsim)) {
 
-                System.out.println(eachKey + " " );
+                System.out.println(eachKey + " " +valueEachArr[0] + " " + valueEachArr[4]);
+
+                //101 Ali MF
+                //104 Ayse MF
+                //106 Sevgi MF
             }
 
         }
